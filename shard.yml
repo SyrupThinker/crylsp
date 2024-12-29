@@ -1,0 +1,20 @@
+name: crylsp
+version: 0.1.0
+
+description: |
+  An alternative LSP server for Crystal.
+
+authors:
+  - Valentin Anger <syrupthinker@gryphno.de>
+
+targets:
+  crylsp:
+    main: src/crylsp.cr
+
+dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+
+crystal: "1.14"
+
+license: EUPL-1.2

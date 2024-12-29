@@ -1,0 +1,4 @@
+[tasks.build]
+run = ["shards build -Dpreview_mt"]
+sources = ["src/**/*.cr"]
+outputs = ["bin/crylsp"]

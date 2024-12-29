@@ -1,0 +1,10 @@
+{
+    "files.readonlyInclude": {
+        "bin/**": true,
+        "lib/**": true
+    },
+    "todo-tree.filtering.excludeGlobs": [
+        "bin/",
+        "lib/"
+    ]
+}
